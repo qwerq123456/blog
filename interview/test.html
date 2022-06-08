@@ -1,0 +1,14 @@
+<script>
+    function first() {
+        console.log("first");
+        second();
+    }
+    function second() {
+        setTimeout(console.log("second"),2000);
+        third();
+    }
+    function third() {
+        setTimeout(console.log("third"), 1000);
+    }
+    first();
+</script>
