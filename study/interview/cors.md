@@ -33,7 +33,7 @@ Scheme, Host, Port가 같을때 같은 출처이다.
 인증된 요청 사용
 
 요청에 credentials 옵션을 다는것
-credentials :   include 옵션을 사용할 경우 아래의 두가지 조건을 만족해야 한다.
+credentials : include 옵션을 사용할 경우 아래의 두가지 조건을 만족해야 한다.
 
 1. Access-Control-Allow-Origin에는 *를 사용할 수 없으며, 명시적인 URL이어야한다.
 2. 응답 헤더에는 반드시 Access-Control-Allow-Credentials: true가 존재해야한다.
